@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VICE CITY QUARTET — GTA VI Cover Studio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>VICE CITY <span>QUARTET</span></h1>
+  <p>Offline GTA VI key-art poster studio — your photos never leave your machine. No uploads, no servers, no logos that are not yours.</p>
+</header>
+<main>
+  <section id="stageWrap">
+    <div id="stage" aria-label="Cover preview"></div>
+    <p id="stageHint">Click a photo panel to select it, then drag it to reposition the photo.</p>
+    <p id="shortcutsHint">Shortcuts: 1–4 templates · G GTA-fy · E export PNG · P poster view · Esc back.</p>
+    <p id="status" role="status">Loading…</p>
+  </section>
+  <aside id="controls">
+    <section>
+      <h2>Template</h2>
+      <div id="templateBox" class="btnRow"></div>
+    </section>
+    <section>
+      <h2>Look</h2>
+      <div id="lookBox" class="btnRow"></div>
+    </section>
+    <section>
+      <h2>Photos</h2>
+      <div class="btnRow">
+        <button data-photoslot="A" class="active">Photo A</button>
+        <button data-photoslot="B">Photo B</button>
+      </div>
+      <p id="photoAName" class="fine">Photo A empty</p>
+      <p id="photoBName" class="fine">Photo B empty</p>
+      <label class="fileBtn">Load your photo (A/B)
+        <input type="file" id="fileA" accept="image/*" hidden>
+      </label>
+      <label class="fileBtn">Load your photo into B
+        <input type="file" id="fileB" accept="image/*" hidden>
+      </label>
+      <div class="btnRow">
+        <button id="sampleA">Sample portrait → A</button>
+        <button id="sampleB">Sample car → B</button>
+      </div>
+      <label><input type="checkbox" id="useAinBoth"> Use photo A in both panels</label>
+      <label>Zoom <output id="photoZoomOut">1.0×</output>
+        <input type="range" id="photoZoom" min="1" max="3" step="0.1" value="1">
+      </label>
+      <label>Pan X <output id="photoXOut">0</output>
+        <input type="range" id="photoX" min="0" max="533" step="1" value="0">
+      </label>
+      <label>Pan Y <output id="photoYOut">0</output>
+        <input type="range" id="photoY" min="0" max="400" step="1" value="0">
+      </label>
+    </section>
+    <section>
+      <h2>Caption</h2>
+      <label>Main title
+        <input type="text" id="titleInput" value="GRAND THEFT AUTO VI" maxlength="40">
+      </label>
+      <label>Tagline
+        <input type="text" id="taglineInput" value="LEONIDA" maxlength="20">
+      </label>
+    </section>
+    <section>
+      <h2>GTA-fy grade <output id="gradeOut">70%</output></h2>
+      <label><input type="checkbox" id="gtafyToggle" checked> GTA-fy grade on</label>
+      <input type="range" id="gradeRange" min="0" max="100" step="1" value="70">
+      <p class="fine">Posterize + halftone dots + neon rim light. Applies to the preview and the export.</p>
+    </section>
+    <section>
+      <h2>Post size</h2>
+      <div id="aspectBox" class="btnRow"></div>
+    </section>
+    <section>
+      <h2>Export PNG</h2>
+      <div class="btnRow">
+        <button data-export="1:1">PNG 1080 × 1080</button>
+        <button data-export="4:5">PNG 1080 × 1350</button>
+        <button data-export="16:9">PNG 1920 × 1080</button>
+      </div>
+      <button id="posterBtn" class="primary">View finished poster</button>
+    </section>
+  </aside>
+</main>
+<div id="posterView" hidden>
+  <div id="posterBar">
+    <span>Finished poster — press Esc or click outside to go back</span>
+    <div id="posterAspectBox" class="btnRow"></div>
+    <button id="posterClose">Back to editor</button>
+  </div>
+  <div id="posterArt"></div>
+</div>
+<script type="module" src="src/main.js"></script>
+</body>
+</html>
