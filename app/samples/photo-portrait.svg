@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="750" viewBox="0 0 600 750">
+  <title>Sample photo — portrait at golden hour (original vector art)</title>
+  <defs>
+    <linearGradient id="pp-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a0a4a"/><stop offset="0.55" stop-color="#a83a7a"/><stop offset="1" stop-color="#ff8a3c"/>
+    </linearGradient>
+    <radialGradient id="pp-glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#ffd23c" stop-opacity="0.9"/><stop offset="1" stop-color="#ffd23c" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="750" fill="url(#pp-sky)"/>
+  <circle cx="300" cy="320" r="210" fill="url(#pp-glow)"/>
+  <circle cx="300" cy="320" r="88" fill="#ffe9a0"/>
+  <g fill="#fff" opacity="0.35">
+    <circle cx="120" cy="120" r="10"/><circle cx="180" cy="90" r="7"/><circle cx="430" cy="140" r="9"/><circle cx="500" cy="90" r="6"/><circle cx="90" cy="220" r="8"/><circle cx="520" cy="230" r="7"/>
+  </g>
+  <g fill="#12041f" opacity="0.92">
+    <path d="M 0 560 Q 150 520 300 556 Q 450 524 600 556 L 600 750 L 0 750 Z"/>
+  </g>
+  <g>
+    <path d="M 96 750 L 96 520 Q 96 430 150 420 L 170 300 Q 175 260 210 258 L 225 250 L 235 290 L 250 300 L 300 285 L 330 300 L 360 330 L 355 420 L 380 430 L 400 480 L 380 520 L 380 750 Z" fill="#0a0318"/>
+    <ellipse cx="272" cy="212" rx="52" ry="60" fill="#0a0318"/>
+    <path d="M 215 210 Q 200 330 228 430 L 246 430 Q 232 320 244 230 Z" fill="#0a0318"/>
+    <path d="M 330 205 Q 348 320 322 425 L 306 425 Q 318 320 306 235 Z" fill="#0a0318"/>
+    <path d="M 240 150 Q 300 130 340 180 Q 330 140 270 132 Z" fill="#0a0318"/>
+  </g>
+  <g stroke="#ff2e88" stroke-width="3" fill="none" opacity="0.8">
+    <path d="M 330 205 Q 348 320 322 425"/>
+    <path d="M 380 430 Q 396 500 384 560"/>
+  </g>
+  <g fill="#ffd23c" opacity="0.5">
+    <circle cx="140" cy="600" r="16"/><circle cx="470" cy="640" r="20"/><circle cx="510" cy="580" r="11"/>
+  </g>
+  <g fill="#0a0318" opacity="0.85">
+    <path d="M 30 640 Q 60 560 40 480" stroke="#0a0318" stroke-width="10" fill="none"/>
+    <path d="M 40 480 Q 10 440 0 420 M 40 480 Q 60 430 90 420 M 40 480 Q 30 420 55 400" stroke="#0a0318" stroke-width="7" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <title>Sample photo — sports car at night (original vector art)</title>
+  <defs>
+    <linearGradient id="pc-sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b0033"/><stop offset="0.6" stop-color="#3d0a6e"/><stop offset="1" stop-color="#b83280"/>
+    </linearGradient>
+    <linearGradient id="pc-road" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1c0b31"/><stop offset="1" stop-color="#07030f"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#pc-sky)"/>
+  <g fill="#fff" opacity="0.7">
+    <circle cx="90" cy="70" r="2.4"/><circle cx="220" cy="46" r="1.8"/><circle cx="360" cy="90" r="2.2"/><circle cx="520" cy="56" r="1.7"/><circle cx="680" cy="100" r="2.1"/><circle cx="750" cy="50" r="1.8"/>
+  </g>
+  <g>
+    <rect x="60" y="180" width="90" height="190" fill="#170a33"/><rect x="170" y="140" width="80" height="230" fill="#1f0d42"/>
+    <rect x="560" y="150" width="100" height="220" fill="#170a33"/><rect x="680" y="200" width="80" height="170" fill="#1f0d42"/>
+    <g fill="#ffd76a"><rect x="76" y="200" width="12" height="14"/><rect x="104" y="230" width="12" height="14"/><rect x="186" y="170" width="12" height="14"/><rect x="214" y="210" width="12" height="14"/><rect x="576" y="180" width="12" height="14"/><rect x="604" y="220" width="12" height="14"/><rect x="696" y="230" width="12" height="14"/></g>
+    <g font-family="Arial Black, sans-serif" font-weight="900" text-anchor="middle">
+      <text x="215" y="290" fill="#ff2e88" font-size="24">HOTEL</text>
+      <text x="610" y="300" fill="#19e3ff" font-size="24">NEON</text>
+    </g>
+  </g>
+  <rect x="0" y="370" width="800" height="230" fill="url(#pc-road)"/>
+  <ellipse cx="400" cy="470" rx="330" ry="26" fill="#19e3ff" opacity="0.22"/>
+  <g>
+    <path d="M 130 470 L 180 420 L 280 396 L 470 392 L 580 414 L 660 440 L 680 470 Z" fill="#c2185b"/>
+    <path d="M 290 400 L 460 396 L 440 424 L 300 426 Z" fill="#0d1526" opacity="0.92"/>
+    <path d="M 130 470 L 680 470 L 668 492 L 146 492 Z" fill="#0a0a12"/>
+    <circle cx="230" cy="486" r="30" fill="#0a0a12"/><circle cx="230" cy="486" r="13" fill="#2a2f45"/>
+    <circle cx="580" cy="486" r="30" fill="#0a0a12"/><circle cx="580" cy="486" r="13" fill="#2a2f45"/>
+    <circle cx="668" cy="448" r="9" fill="#fff8d0"/>
+    <path d="M 676 440 L 800 420 L 800 460 Z" fill="#ffe9a0" opacity="0.5"/>
+    <rect x="150" y="436" width="34" height="10" rx="4" fill="#ff2e4d"/>
+  </g>
+  <g opacity="0.5">
+    <rect x="200" y="510" width="80" height="6" fill="#ff2e88"/><rect x="520" y="520" width="110" height="6" fill="#19e3ff"/>
+  </g>
+  <g stroke="#cfe8ff" stroke-width="1.4" opacity="0.35">
+    <line x1="120" y1="60" x2="112" y2="86"/><line x1="300" y1="30" x2="292" y2="56"/><line x1="520" y1="80" x2="512" y2="106"/><line x1="700" y1="40" x2="692" y2="66"/>
+  </g>
+</svg>
